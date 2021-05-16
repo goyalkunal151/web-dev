@@ -1,0 +1,231 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* my code */
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  justify-content: center;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.main-image{
+    display:block;
+    width:100%;
+    border:2px solid black;
+}
+main{
+    background:linear-gradient(to bottom, rgba( 2, 188, 235,1),rgba( 2, 188, 235,0.75), rgb(63, 133, 151, 0.5), rgba( 2, 188, 235,0.25) );
+    overflow:hidden;
+}
+section {
+    
+    width:calc(100% - 100px);
+    justify-content: center;
+    text-align: justify;
+    padding: 50px 50px;
+    
+
+}
+h2 {
+    color:#b59009;
+    padding: 10px 0; 
+    line-height: 10px; 
+    font-weight: 1800; 
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: solid;
+}
+.list{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+}
+.list1{
+    display:inline;
+    float:left;
+    width:33%;
+    padding:20px 20px;
+}
+.list2{
+    display:inline;
+    float:left;
+    width:33%;
+    padding:20px 20px;
+}
+.list3{
+    display:inline;
+    float:right;
+    width:33%;
+    padding:20px 20px;
+}
+ul{
+    list-style-type: none;
+}
+p {
+    line-height: 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+li { 
+    line-height: 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+footer{
+    width:100%;
+   
+    background-color: #555;
+    overflow:hidden;
+   
+}
